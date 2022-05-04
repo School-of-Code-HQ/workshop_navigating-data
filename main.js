@@ -65,6 +65,15 @@ function getMangoLovers() {
 console.log("Who loves mango?", getMangoLovers());
 
 // Task 6
+// Complete the function. Try and return the address of the person in the position in the array we've been handed
+
+function getAddress(positionInArray) {
+  // Your code goes here...
+}
+
+console.log(getAddress(0));
+
+// Task 7
 // Show a profile for each person in the ul with id "profiles"
 // A profile should include their name, age, and their image
 // Remember, break this down and tackle it step by step!
