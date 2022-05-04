@@ -40,7 +40,7 @@ cooperBradyGreeting();
 
 // Task 4
 // Complete the following function
-// In it, we want to take in an email as a parameter, and search for the person who has that email
+// In it, we want to take in an email as a parameter, and loop through search for the person who has that email
 // If we find them, return the person
 // If we don't, return null
 
@@ -52,7 +52,7 @@ const found = findPersonByEmail("carversalinas@comtent.com");
 console.log("What I found:", found);
 
 // Task 5
-// Make a list containing only the people who's favourite fruit is a mango
+// Make a list containing only the people's names who's favourite fruit is a mango
 
 function getMangoLovers() {
   let mangoLovers = [];

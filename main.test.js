@@ -51,14 +51,23 @@ describe(LEVELS.two, () => {
     const actual = document.querySelector("#message").innerText;
     expect(expected).toBe(actual);
   });
-  it("Find mango lovers", () => {
-    const expected = window.SOCBook.data.people.filter(
-      (person) => person.favoriteFruit === "mango"
-    );
-    const actual = window.getMangoLovers();
-    expect(expected).toBe(actual);
+  it("Find person by email", () => {
+    const expected = "carversalinas@comtent.com";
+    const actual = window.findPersonByEmail("carversalinas@comtent.com");
+    expect(expected).toBe(actual.email);
   });
 });
 describe(LEVELS.three, () => {
-  it.skip("bonus not yet marked", () => {});
+  it("Find mango lovers", () => {
+    const expected = [
+      "Coleen Calderon",
+      "Carver Salinas",
+      "Marie David",
+      "Jennifer Montoya",
+      "Porter Jennings"
+    ];
+    const actual = window.getMangoLovers();
+    expect(expected).toEqual(actual);
+  });
+  it.skip("bonus task not yet marked", () => {});
 });
