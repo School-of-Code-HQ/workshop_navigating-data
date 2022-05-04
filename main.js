@@ -1,4 +1,5 @@
 // Print out into the console the entire SOCBook object
+console.log(SOCBook);
 
 // Take a look at it in the console
 // Notice the shape of the data, and all of the different information contained in it
