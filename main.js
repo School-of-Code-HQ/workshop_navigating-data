@@ -7,6 +7,9 @@ console.log(SOCBook);
 
 // For all the following tasks, access/select the data required through the SOCBook object
 
+// For the Tasks 1, 2, and 3 you will look at the object and find your desired data manually. Then, simply select it from the object
+// e.g. object.path[2].data.I.want
+
 // Task 1
 // Complete the function so it returns Liz Rios' favourite fruit
 
@@ -37,6 +40,8 @@ function cooperBradyGreeting() {
 }
 
 cooperBradyGreeting();
+
+// For Tasks 4, 5, 6, and 7 you will be getting much more programmatic with how you interact with the data, rather than manually finding and selecting
 
 // Task 4
 // Complete the following function
